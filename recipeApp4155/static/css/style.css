@@ -1,0 +1,43 @@
+.titlebutton h1 {
+    font-family: 'Marker Felt', fantasy;
+    text-transform: uppercase;
+    color: rgb(119, 189, 247);
+    text-decoration: none;
+    text-align: center;
+                                                
+}
+
+.topnav {
+    background-color: rgb(119, 189, 247);
+    overflow: hidden;
+}
+
+.topnav .topright{
+    float: right;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Avantgarde;
+}
+
+.topnav a:hover {
+    background-color: #dddddd;
+    color: black;
+  }
+
+body {
+    background-color: #f2f2f2;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
