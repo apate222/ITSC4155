@@ -18,10 +18,12 @@ from django.urls import include, path
 from app1.views import (
     home_view,
     signup_view,
+    login_view,
 )
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('', home_view,),
     path("signup/", signup_view),
+    path("login/", login_view),
 ]

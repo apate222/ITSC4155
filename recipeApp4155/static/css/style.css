@@ -1,3 +1,5 @@
+/* NAV BAR  */
+
 .titlebutton h1 {
     font-family: 'Marker Felt', fantasy;
     text-transform: uppercase;
@@ -44,6 +46,9 @@ body
     background-color: #f2f2f2;
     font-family: 'fantasy';
 }
+
+/* SIGN UP  */
+
 .Register{
     width: 382px;
     overflow: hidden;
@@ -129,6 +134,18 @@ span{
   cursor: pointer;
 
 }
+
+/* LOGIN PAGE */
+.login{
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: rgb(119, 189, 247);
+    border-radius: 15px ;
+}
+
 
 
   

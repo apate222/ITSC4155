@@ -11,4 +11,8 @@ def signup_view(request):
     context = {} 
     return render(request, "app1/createAccount.html", context)
 
+def login_view(request):
+    context = {} 
+    return render(request, "app1/login.html", context)    
+
 
