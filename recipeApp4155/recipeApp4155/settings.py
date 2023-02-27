@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "app1",
 
     #django apps
+    "useraccounts",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -63,7 +64,11 @@ ROOT_URLCONF = "recipeApp4155.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, 'templates')],
+        "DIRS": [
+            os.path.join(BASE_DIR, 'templates'),
+            os.path.join(BASE_DIR, 'useraccounts/templates'),
+            os.path.join(BASE_DIR, 'useraccounts/templates/useraccounts')
+        ],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [

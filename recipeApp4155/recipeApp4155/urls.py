@@ -17,13 +17,20 @@ from django.contrib import admin
 from django.urls import include, path
 from app1.views import (
     home_view,
-    signup_view,
+    register_view,
     login_view,
 )
+from django.contrib.auth.views import PasswordResetView, PasswordResetDoneView, PasswordResetConfirmView, PasswordResetCompleteView
+
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('', home_view, name="home"),
-    path("signup/", signup_view, name="signup"),
     path("login/", login_view, name="login"),
+    path("register/", register_view, name="register"),
+    path('reset_password/', PasswordResetView.as_view(), name='reset_password'),
+    path('reset_password_sent/', PasswordResetDoneView.as_view(), name='password_reset_done'),
+    path('reset/<uidb64>/<token>/', PasswordResetConfirmView.as_view(), name='password_reset_confirm'),
+    path('reset_password_complete/', PasswordResetCompleteView.as_view(), name='password_reset_complete'),
+    path('useraccounts/', include('django.contrib.auth.urls'), {'template_name': 'registration/login.html'})
 ]
