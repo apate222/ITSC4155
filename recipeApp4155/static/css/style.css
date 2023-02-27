@@ -25,7 +25,8 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 15px;
-    font-family: Avantgarde;
+    font-weight: lighter;
+    font-family: sans-serif, Tahoma;
 }
 
 .topnav a:hover {
@@ -57,15 +58,19 @@ body
     padding: 80px;
     background: rgb(119, 189, 247);
     border-radius: 15px ;
+    font-weight: lighter;
+    font-family: sans-serif, Tahoma;
 }
 h2{
     font-size: 50px;
     text-align: center;
     color: #c86464;
     padding: 15px;
+    font-weight: lighter;
+    font-family: sans-serif, Tahoma;
 }
 label{
-    color: #c86464;
+    color: darkblue;
     font-size: 20px;
 }
 #username{
@@ -136,6 +141,8 @@ span{
     padding: 80px;
     background: rgb(119, 189, 247);
     border-radius: 15px ;
+    font-weight: lighter;
+    font-family: sans-serif, Tahoma;
 }
 
 
