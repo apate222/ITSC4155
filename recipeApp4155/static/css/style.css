@@ -124,17 +124,9 @@ span{
     color: white;
     font-size: 17px;
 }
-
-.button {
-  border: 2px solid #dddddd;
-  background-color: #c86464;
-  color: black;
-  padding: 14px 28px;
-  font-size: 8px;
-  cursor: pointer;
-
+#sub :hover{
+    background-color: #c86464
 }
-
 /* LOGIN PAGE */
 .login{
     width: 382px;
