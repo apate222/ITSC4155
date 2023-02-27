@@ -3,7 +3,7 @@
 {% block content %}
 
 {% load static %}
-<title>Sign Up</title>
+<title>Create Account</title>
 <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
 
 
@@ -14,8 +14,11 @@
     {% csrf_token %}
     {{ form.as_p }}
     <button type="submit">Create Account</button>
+    <br>
+    <br>
+    <p>Already have an account? <a href="{% url 'login' %}">Click Here</a></p>
     </form>
-    <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
+    
     </div>
 </body>
 

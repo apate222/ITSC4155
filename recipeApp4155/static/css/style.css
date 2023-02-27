@@ -1,6 +1,6 @@
 a:hover{  
     color: navy;
-    box-shadow: inset 100px 0 0 0 #f2f2f2;
+    box-shadow: inset 200px 0 0 0 #f2f2f2;
     
 }
 
@@ -151,6 +151,10 @@ span{
     font-weight: lighter;
     font-family: sans-serif, Tahoma;
     color: darkblue;
+}
+
+form p{
+    font-size: 9pt;
 }
 
 form a{
