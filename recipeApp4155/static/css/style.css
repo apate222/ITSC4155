@@ -31,13 +31,104 @@
     color: black;
   }
 
-body {
-    background-color: #f2f2f2;
-}
 
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: 'fantasy';
+}
+.Register{
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: rgb(119, 189, 247);
+    border-radius: 15px ;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: #c86464;
+    padding: 15px;
+}
+label{
+    color: #c86464;
+    font-size: 20px;
+}
+#username{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#firstName{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#lastName{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#email{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#password{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#password2{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
 
+#sub{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: darkblue;
+}
+
+span{
+    color: white;
+    font-size: 17px;
+}
+
+.button {
+  border: 2px solid #dddddd;
+  background-color: #c86464;
+  color: black;
+  padding: 14px 28px;
+  font-size: 8px;
+  cursor: pointer;
+
+}
+
+
+  

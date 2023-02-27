@@ -1,9 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Create Account</title>
-    <link rel="stylesheet" type="text/css" href="CreateAccount.css">
-</head>
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+
+
 <body>
     <h2>Create Account</h2><br>
     <div class="Register">
@@ -30,8 +33,10 @@
             <input type="button" name="log" id="sub" value="Submit">
         <br>
         <br>
-        <a href="login.html">Login</a>
+        <a href="login.html" class="button">Login</a>
     </form>
 </div>
 </body>
-</html>
+
+{% endblock content %}
+

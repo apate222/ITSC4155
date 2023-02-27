@@ -6,3 +6,9 @@ def home_view(request):
     context = {} 
     return render(request, "app1/home.html", context)
 
+
+def signup_view(request):
+    context = {} 
+    return render(request, "app1/createAccount.html", context)
+
+
