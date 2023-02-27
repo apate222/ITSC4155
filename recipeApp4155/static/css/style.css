@@ -1,4 +1,16 @@
+a:hover{  
+    color: navy;
+    box-shadow: inset 100px 0 0 0 #f2f2f2;
+    
+}
+
+a{
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
 /* NAV BAR  */
+.topnav a:hover{
+    color: navy;
+}
 
 .titlebutton h1 {
     font-family: 'Marker Felt', fantasy;
@@ -13,6 +25,7 @@
     background-color: rgb(119, 189, 247);
     overflow: hidden;
 }
+
 
 .topnav .topright{
     float: right;
@@ -29,10 +42,6 @@
     font-family: sans-serif, Tahoma;
 }
 
-.topnav a:hover {
-    background-color: #dddddd;
-    color: black;
-  }
 
 
 a:link { text-decoration: none; }
@@ -60,6 +69,7 @@ body
     border-radius: 15px ;
     font-weight: lighter;
     font-family: sans-serif, Tahoma;
+    color: darkblue;
 }
 h2{
     font-size: 50px;
@@ -69,8 +79,7 @@ h2{
     font-weight: lighter;
     font-family: sans-serif, Tahoma;
 }
-label{
-    color: darkblue;
+label{  
     font-size: 20px;
 }
 #username{
@@ -129,9 +138,7 @@ span{
     color: white;
     font-size: 17px;
 }
-#sub :hover{
-    background-color: #c86464
-}
+
 /* LOGIN PAGE */
 .login{
     width: 382px;
@@ -143,7 +150,16 @@ span{
     border-radius: 15px ;
     font-weight: lighter;
     font-family: sans-serif, Tahoma;
+    color: darkblue;
 }
+
+form a{
+    color: white;
+    border: solid #f2f2f2;
+    border-radius: 2px;
+    padding: 3px
+}
+
 
 
 
